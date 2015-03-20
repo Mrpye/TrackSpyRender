@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TrackSpy", "TrackSpy\TrackSpy.vbproj", "{E7750AF5-412D-4C3C-8925-2A69D01F405B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7750AF5-412D-4C3C-8925-2A69D01F405B}.Debug|x86.ActiveCfg = Debug|x86
+		{E7750AF5-412D-4C3C-8925-2A69D01F405B}.Debug|x86.Build.0 = Debug|x86
+		{E7750AF5-412D-4C3C-8925-2A69D01F405B}.Release|x86.ActiveCfg = Release|x86
+		{E7750AF5-412D-4C3C-8925-2A69D01F405B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

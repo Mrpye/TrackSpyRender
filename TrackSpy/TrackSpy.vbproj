@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{E7750AF5-412D-4C3C-8925-2A69D01F405B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TrackSpy</RootNamespace>
+    <AssemblyName>TrackSpy</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <Externalconsole>true</Externalconsole>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <AdditionalParameters>
+    </AdditionalParameters>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <Externalconsole>true</Externalconsole>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <AdditionalParameters>
+    </AdditionalParameters>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Data" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\..\Desktop\VB Projects\TrackSpyRender\3rd\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Application.vb" />
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="Data\SettingItem.vb" />
+    <Compile Include="Dials\AquaGuage.vb" />
+    <Compile Include="Dials\Object\Dial_Base.vb" />
+    <Compile Include="Dials\Object\Round_Dial_Base.vb" />
+    <Compile Include="Dials\Renderer\Dial_Calibration.vb" />
+    <Compile Include="Dials\Renderer\Dial_Face.vb" />
+    <Compile Include="Dials\Renderer\Dial_Needle.vb" />
+    <Compile Include="Dials\Renderer\Dial_Threshold.vb" />
+    <Compile Include="Dials\Renderer\Dial_Type1.vb" />
+    <Compile Include="Dials\Renderer\Digit.vb" />
+    <Compile Include="Dials\Renderer\Misc.vb" />
+    <Compile Include="Exception\DataMappingException.vb" />
+    <Compile Include="Exception\DataReaderException.vb" />
+    <Compile Include="Exception\MissingGraphicsException.vb" />
+    <Compile Include="Exception\PluginException.vb" />
+    <Compile Include="Interface\IPlugin.vb" />
+    <Compile Include="Interface\IPluginContext.vb" />
+    <Compile Include="Layout\LayoutItem.vb" />
+    <Compile Include="Layout\LayoutManager.vb" />
+    <Compile Include="Plugin\BasePlugin.vb" />
+    <Compile Include="Plugin\PluginContext.vb" />
+    <Compile Include="Plugin\PluginManager.vb" />
+    <Compile Include="PlugIns\PluginDial.vb" />
+    <Compile Include="PlugIns\PluginForce.vb" />
+    <Compile Include="PlugIns\PluginImg.vb" />
+    <Compile Include="PlugIns\PluginMap.vb" />
+    <Compile Include="PlugIns\PluginTimer.vb" />
+    <Compile Include="Renderer\RenderVideo.vb" />
+    <Compile Include="Renderer\Track_Gps_Data.vb" />
+    <Compile Include="Helper\ReflectionHelper.vb" />
+    <Compile Include="Helper\XmlColor.vb" />
+    <Compile Include="Helper\XmlFont.vb" />
+    <Compile Include="Data\DataMappingItem.vb" />
+    <Compile Include="Data\DataReader.vb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <ItemGroup>
+    <Folder Include="Dials\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Layout\" />
+    <Folder Include="Plugin\" />
+    <Folder Include="PlugIns\" />
+    <Folder Include="Renderer\" />
+    <Folder Include="Helper\" />
+  </ItemGroup>
+</Project>

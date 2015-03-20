@@ -1,0 +1,3 @@
+C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\bin\Release\TrackSpy.exe
+C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\bin\Release\Newtonsoft.Json.dll
+C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\obj\x86\Release\TrackSpy.exe
