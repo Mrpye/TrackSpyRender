@@ -1,8 +1,15 @@
 ﻿<Properties StartupItem="TrackSpy\TrackSpy.vbproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TrackSpy\PlugIns\PluginMap.vb">
+    <Files>
+      <File FileName="TrackSpy\PlugIns\PluginMap.vb" Line="9" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\andy.pye\Documents\Projects\Mrpye\TrackSpyRender.git\TrackSpy\Application.vb" line="8" column="1" />
+      <Breakpoint file="C:\Users\andy.pye\Documents\Projects\Mrpye\TrackSpyRender.git\TrackSpy\Application.vb" line="6" column="3" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

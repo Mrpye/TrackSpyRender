@@ -3,3 +3,4 @@ C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\bin\Debug\TrackSpy.pdb
 C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\bin\Debug\Newtonsoft.Json.dll
 C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\obj\x86\Debug\TrackSpy.exe
 C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\obj\x86\Debug\TrackSpy.pdb
+C:\Users\andy.pye\Documents\Mono\TrackSpy\TrackSpy\obj\x86\Debug\TrackSpy.vbprojResolveAssemblyReference.cache

@@ -14,4 +14,10 @@ Global
 		{E7750AF5-412D-4C3C-8925-2A69D01F405B}.Release|x86.ActiveCfg = Release|x86
 		{E7750AF5-412D-4C3C-8925-2A69D01F405B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+	EndGlobalSection
 EndGlobal

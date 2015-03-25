@@ -8,6 +8,7 @@
     <RootNamespace>TrackSpy</RootNamespace>
     <AssemblyName>TrackSpy</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseMSBuildEngine>False</UseMSBuildEngine>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,7 +36,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Data" />
     <Reference Include="Newtonsoft.Json">
-      <HintPath>..\..\..\..\Desktop\VB Projects\TrackSpyRender\3rd\Newtonsoft.Json.dll</HintPath>
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
